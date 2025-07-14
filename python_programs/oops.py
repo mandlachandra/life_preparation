@@ -23,3 +23,4 @@ people_sorted = sorted(people, key=lambda people: people.age)
 print("Sorted by age:")
 for people in people_sorted:
     print(people.age, people.name, people.salary)
+    print(people)
